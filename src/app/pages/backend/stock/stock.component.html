@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Picture</th>
+            <th>CategoryName</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of dataProduct">
+            <td>{{data.productId}}</td>
+            <td>{{data.productName}}</td>
+            <td>{{data.price}}</td>
+            <td>{{data.quantity}}</td>
+            <td>{{data.picture}}</td>
+            <td>{{data.categoryName}}</td>
+        </tr>
+    </tbody>
+</table>
